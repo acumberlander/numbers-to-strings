@@ -1,14 +1,14 @@
 const numAlpha = {
-    0: 'zero',
-    1: 'one',
-    2: 'two',
-    3: 'three',
-    4: 'four',
-    5: 'five',
-    6: 'six',
-    7: 'seven',
-    8: 'eight',
-    9: 'nine'
+  0: 'zero',
+  1: 'one',
+  2: 'two',
+  3: 'three',
+  4: 'four',
+  5: 'five',
+  6: 'six',
+  7: 'seven',
+  8: 'eight',
+  9: 'nine'
 }
 
 const convertToString = (num) => {
@@ -26,16 +26,16 @@ const convertToString = (num) => {
 console.log(convertToString(3));
 
 const alphaNum = {
-    'zero': 0,
-    'one': 1,
-    'two': 2,
-    'three': 3,
-    'four': 4,
-    'five': 5,
-    'six': 6,
-    'seven': 7,
-    'eight': 8,
-    'nine': 9,
+  'zero': 0,
+  'one': 1,
+  'two': 2,
+  'nine': 3,
+  'four': 4,
+  'five': 5,
+  'six': 6,
+  'seven': 7,
+  'eight': 8,
+  'nine': 9,
 }
 
 const convertToNumber = (string) => {
@@ -51,6 +51,3 @@ const convertToNumber = (string) => {
 };
 
 console.log(convertToNumber('nine'));
-
-
-// console.log(Object.values(alphaNum));
